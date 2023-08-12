@@ -1,0 +1,67 @@
+{
+   "Update": "Обновить",
+   "Edit": "Редактировать",
+   "Create": "Создать",
+   "CreateNewRecord": "Создать новую запись",
+
+   "Category": "Категория",
+   "Name": "Имя",
+   "Limit": "Лимит",
+   "income": "Доход",
+   "outcome": "Расход",
+   "NoRecord-one": "Записей пока нет",
+   "NoRecord-two": "Добавте первую",
+   "NoCategories-one": "категорий пока нет",
+   "NoCategories-two": "Создайте новую",
+   "Sum": "Сумма",
+   "Date": "Дата",
+   "Description": "Описание",
+   "Choose-category": "Выберите категорию",
+
+   "Profile": "Профиль",
+   "Profile_Error_EnterNewName": "Введите новое имя",
+
+   "NavBar_SignOut": "Выйти",
+
+   "Sidebar_Bill": "Счет",
+   "Sidebar_History": "История",
+   "Sidebar_Planning": "Планирование",
+   "Sidebar_NewRecord": "Новая запись",
+   "Sidebar_Categories": "Категории",
+
+   "Home": "Счёт",
+   "HomeBill_Title": "Счет в валюте",
+   "HomeCurrency_Title": "Курс валют",
+   "HomeCurrency_ValueType": "Валюта",
+   "HomeCurrency_Value": "Курс",
+   "HomeCurrency_Date": "Дата",
+
+   "HistoryTXT": "История",
+   "History": "История записей",
+   "History_Pagination_back": "Назад",
+   "History_Pagination_forward": "Вперёд",
+
+   "HistoryTable_Category": "Категория",
+   "HistoryTable_Type": "Тип",
+   "HistoryTable_Open": "Открыть",
+   "HistoryTable_openRecord": "Посмотреть запись",
+
+   "Planning": "Планирование",
+   "Planning_Of": "из",
+   "Planning_Excess": "Превышение на",
+   "Planning_Remaining": "Осталось",
+
+   "Record": "Новая запись",
+   "Recoed_Error_Sum": "Минимальное значение:",
+   "Record_Error_EnterDescription": "Введите описание",
+
+   "Categories": "Категории",
+
+   "Caterogy_Create_Error_Name": "Введите название категории",
+   "Caterogy_Create_Error_Limit": "Минимальное значение:",
+
+   "Category_Edit_Error_Name": "Введите название категории",
+   "Category_Edit_Error_Limit": "Минимальное значение:",
+
+   "Detail": "Такой записи с таким id нет"
+}

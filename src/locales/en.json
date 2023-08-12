@@ -1,0 +1,67 @@
+{
+   "Update": "Update",
+   "Edit": "Edit",
+   "Create": "Create",
+   "CreateNewRecord": "Create new record",
+
+   "Category": "Category",
+   "Name": "Name",
+   "Limit": "Limit",
+   "income": "Income",
+   "outcome": "Outcome",
+   "NoRecord-one": "No records yet",
+   "NoRecord-two": "Add new one",
+   "NoCategories-one": "No categories yet",
+   "NoCategories-two": "Create new one",
+   "Sum": "Sum",
+   "Date": "Date",
+   "Description": "Description",
+   "Choose-category": "Choose category",
+
+   "Profile": "Profile",
+   "Profile_Error_EnterNewName": "Enter new name",
+
+   "NavBar_SignOut": "Sign out",
+
+   "Sidebar_Bill": "Bill",
+   "Sidebar_History": "History",
+   "Sidebar_Planning": "Plannibg",
+   "Sidebar_NewRecord": "New Record",
+   "Sidebar_Categories": "Categories",
+
+   "Home": "Bill",
+   "HomeBill_Title": "Bill in currencies",
+   "HomeCurrency_Title": "Currencies rates",
+   "HomeCurrency_ValueType": "Currency",
+   "HomeCurrency_Value": "Rate",
+   "HomeCurrency_Date": "Date",
+
+   "HistoryTXT": "History",
+   "History": "Record History",
+   "History_Pagination_back": "Back",
+   "History_Pagination_forward": "Forward",
+
+   "HistoryTable_Category": "Category",
+   "HistoryTable_Type": "Type",
+   "HistoryTable_Open": "Open",
+   "HistoryTable_openRecord": "Look a record",
+
+   "Planning": "Planning",
+   "Planning_Of": "of",
+   "Planning_Excess": "Excess by",
+   "Planning_Remaining": "Remaining",
+
+   "Record": "New record",
+   "Recoed_Error_Sum": "Minimum value is:",
+   "Record_Error_EnterDescription": "Enter description",
+
+   "Categories": "Categories",
+
+   "Caterogy_Create_Error_Name": "Enter the name of category",
+   "Caterogy_Create_Error_Limit": "Minimum value is:",
+
+   "Category_Edit_Error_Name": "Enter the name of category",
+   "Category_Edit_Error_Limit": "Minimum value is:",
+
+   "Detail": "There is no history with this id"
+}

@@ -1,30 +1,68 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+<metainfo>
+   <template v-slot:title="{ content }">{{ content ? `${content} | ${appName}` : `${appName}` }}</template>
+</metainfo>
+<component :is="layout">
+   <router-view></router-view>
+</component>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+import { useMeta } from 'vue-meta'
+import EmptyLayout from '@/layouts/EmtyLayout'
+import MainLayout from './layouts/MainLayout'
+export default {
+   setup () {
+      const appName = process.env.VUE_APP_TITLE
+      useMeta({
+         title: '',
+         htmlAttrs: { lang: 'en', amp: true }
+      })
+      return {
+         appName
+      }
+   },
+   computed: {
+      layout() {
+         return (this.$route.meta.layout || 'empty') + '-layout'
+      }
+   },
+   components: {
+      EmptyLayout, MainLayout
+   }
 }
+</script>
 
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+<style lang="scss">
+@import '~materialize-css/dist/css/materialize.min.css';
+@import 'assets/index.css';
+.po-password-strength-bar {
+   border-radius: 2px;
+   transition: all 0.2s linear;
+   height: 5px;
+   margin-top: 8px;
+}
+.po-password-strength-bar.risky {
+   background-color: #f95e68;
+   width: 10%;
+}
+.po-password-strength-bar.guessable {
+   background-color: #fb964d;
+   width: 32.5%;
+}
+.po-password-strength-bar.weak {
+   background-color: #fdd244;
+   width: 55%;
+}
+.po-password-strength-bar.safe {
+   background-color: #b0dc53;
+   width: 77.5%;
+}
+.po-password-strength-bar.secure {
+   background-color: #35cc62;
+   width: 100%;
+}
+.pagination {
+   cursor: pointer;
 }
 </style>
